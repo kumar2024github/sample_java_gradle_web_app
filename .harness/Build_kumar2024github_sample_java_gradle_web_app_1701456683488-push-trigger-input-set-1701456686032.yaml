@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_kumar2024github_sample_java_gradle_web_app_1701456683488-push-trigger-input-set
+  identifier: Build_kumar2024github_sample_java_gradle_web_app_1701456683488pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_kumar2024github_sample_java_gradle_web_app_1701456683488
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
